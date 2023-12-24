@@ -1,6 +1,6 @@
 void AdjustValueBasedOnFactors(float* valuePointer, float factor1, float factor2)
 {
-    const float modifier = 60.0f;
+    const float modifier = 65.0f;
     const float newMaxLevel = 201.0f;
 
     if (*valuePointer > modifier)
